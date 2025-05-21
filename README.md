@@ -13,9 +13,9 @@ That makes the scan invalid, because even adding a link changes the file's hash 
 
 If you've downloaded this from a post I made on github, youtube, reddit or some. Then you'll see I provided a VirusTotal link and the SHA-256 Hash ID 
 
-You can then use the SHA-256 Hash ID to verify that what you downloaded is the exact same file that was scanned on Virus Total
+You can then use the SHA-256 Hash ID to verify that what you downloaded is the exact same file that was scanned on Virus Total :
 
-On the Virus Total link scan go to the Details you will the SHA-256 Hash ID there
+On the Virus Total link scan go to the Details, you will see the SHA-256 Hash ID there
 
 To get the SHA-256 ID of the file you downloaded, run this command in Windows PowerShell  
 
