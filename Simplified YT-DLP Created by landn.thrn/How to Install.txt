@@ -1,0 +1,149 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+↓ Malware Free Confirmation at bottom of document ↓
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+YT-DLP Simplified Commands
+By landn.thrn
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+INSTALLING YT-DLP & FFMPEG:
+
+(There's a number of ways you can do this 
+all of which will still work with these Simplified Commands, but I suggest
+using this simple way provided, as downloading in another way would require
+you to change the yt-dlp & ffmepg install path locations in the configs .txt files)
+
+~~~~~~~~~~~~~~
+
+Simple Winget Install Method :
+
+Open Windows Powershell
+
+Run the command ' Winget search yt-dlp ' 
+
+Copy the first ID you see 
+
+Type ' Winget Install <paste the ID> ' Hit enter
+
+Let it finish installing
+
+~~~~~~~~~~~~~~
+
+Now same process for FFMEG:
+
+Run ' Winget search ffmeg ' 
+
+Copy the first ID 
+
+Type ' Winget Install <paste the ID> ' Hit enter ' 
+
+Let it finish installing
+
+~~~~~~~~~~~~~~
+
+ONCE YT-DLP & FFMEPG ARE INSTALLED:
+
+Open File Explorer, clear the address in the path address bar, 
+
+Type %appdata% hit enter
+
+Drag the yt-dlp folder from this pack into your Appdata/Roaming 
+(replace if that folder is already there)
+(if you happen to have your own created yt-dlp configs in a folder titled the same, then don't replace & lose your own configs of course)
+
+Open yt-dlp-encode.txt inside the yt-dlp folder, keep this tab open for now
+
+Open another File Explorer tab, clear the address path bar
+
+Paste this path location in the path address bar '  C:\Users\%USERNAME%\AppData\Local\Microsoft\WinGet\Packages\  ' and Hit enter
+
+Click into the folders you see until you find the ffmpeg bin folder, open the bin folder and then copy the current path location in the File Explorer address bar
+
+In the yt-dlp-encode.txt you have open, find this line at bottom :
+ '  --ffmpeg-location "C:\Users\%USERNAME%\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-7.1.1-full_build\bin"  ' 
+
+With the ffmpeg path location address you copied, paste it inbetween the "the apostrophes of that line like this"
+
+Coding is very character sensitive so make sure you've pasted it correctly and no other changes were made to the .txt
+
+Open the yt-dlp-no-encode.txt and paste the same address in the same place just the same
+
+Save & Close the .txt documents
+
+~~~~~~~~~~~~~~
+
+Now open your computer Documents folder 
+
+Drag the dlpSimplified-Commands folder into your documents
+
+~~~~~~~~~~~~~~
+
+Open Windows search, find and open Environment Variables
+
+In the top retangle box select Path, and click Edit and then New
+
+Paste this path address '   C:\Users\%USERNAME%\Documents\dlpSimplified-Commands   ' 
+
+Replace the '  %USERNAME%  ' part with the name of your computer user 
+(if you don't know the name of your user, open File Explorer > My PC > Local Disk C: > Users > You will see a folder with the name of your user)
+So say if it was Elephant, then the path address for the varible would be C:\Users\Elephant\Documents\dlpDownloader-commands
+
+Click Ok to close Environment Variables
+
+~~~~~~~~~~~~~~
+
+Open command prompt and type yt-help
+
+ENJOY :)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+IMPORTANT INFO:
+
+All video related commands download re-encoded to MP4 so that downloads are compatible in editing software.
+
+If you aren't downloading to edit with but more so just to view, then type the number '  8  ' before any command
+and it will install as original & non-encoded. For Example  ~  8yt-vid 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+TROUBLESHOOTING:
+
+If you're having any sort of issue it is likely due to a path location that needs a small tweak in one (or maybe more) of these areas
+
+The 2 .txt files in your yt-dlp folder 
+
+Envoriment Varibles > Path > Edit 
+
+Very unlikely that anything would need to be tweaked in the dlpSimplified-Commands folder
+
+~~~~~~~~~~~~~~
+
+DISCLAIMER:
+
+Changing names, and locations of these files to your own liking will require you to update/change the path locations in the files & in Enviorment Varibles
+So just leave the files as they are, and place them in the previously instructed areas no where else.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Donation Link :)
+https://www.paypal.com/donate/?hosted_button_id=K4PLHFVBH7X8C
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
