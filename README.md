@@ -1,5 +1,7 @@
 A command prompt user interface for YT-DLP, with simplified commands and configurations optimized to download at highest quality audio & video always.
 
+Simple step by step instructions included of course
+
 ----------------------------
 
 SIMPLIFIED COMMANDS:
