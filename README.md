@@ -56,4 +56,10 @@ yt-mp3-clip-sub 1:23-3:21 `<URL>`     ~     Specific Section  |  Audio + Subtitl
 
 yt-mp3-playlist-sub `<URL>`           ~     Download a Playlist in Full  |  Audio + Subtitles
 
-----------------------------
+---
+
+## Support me
+- ☕ [Buy Me a Coffee](https://buymeacoffee.com/landn.thrn)  
+- 🌊 [Paypal Donation](https://www.paypal.com/donate/?hosted_button_id=K4PLHFVBH7X8C)
+
+---
