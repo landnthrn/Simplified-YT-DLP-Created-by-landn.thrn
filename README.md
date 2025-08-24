@@ -1,3 +1,5 @@
+<img width="1223" height="1035" alt="PREVIEW" src="https://github.com/user-attachments/assets/3761c272-16fa-4f11-a4a0-908a7b094f33" />
+
 A command prompt user interface for YT-DLP, with simplified commands and configurations optimized to download at highest quality audio & video always.
 
 Simple step by step instructions included of course
