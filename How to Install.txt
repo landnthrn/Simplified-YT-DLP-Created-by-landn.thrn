@@ -1,0 +1,168 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+YT-DLP Simplified Commands
+By landn.thrn
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+INSTALLING YT-DLP & FFMPEG:
+
+(There's a number of ways you can do this 
+All of which will still work with these Simplified Commands, but I suggest
+using this simple way provided, as downloading in another way would require
+you to change the yt-dlp & ffmepg install path locations in the configs .txt files)
+
+~~~~~~~~~~~~~~
+
+Simple Winget Install Method :
+
+Open Windows Powershell
+
+Run the command ' Winget search yt-dlp ' 
+
+Copy the first ID you see 
+
+Type ' Winget Install <paste the ID> ' Hit enter
+
+Let it finish installing
+
+~~~~~~~~~~~~~~
+
+Now same process for FFMEG:
+
+Run ' Winget search ffmeg ' 
+
+Copy the first ID 
+
+Type ' Winget Install <paste the ID> ' Hit enter ' 
+
+Let it finish installing
+
+~~~~~~~~~~~~~~
+
+ONCE YT-DLP & FFMEPG ARE INSTALLED:
+
+Press Win + R 
+
+Type %appdata% hit enter
+
+Drag the yt-dlp folder from this pack into your Appdata/Roaming 
+(replace if that folder is already there)
+(if you happen to have your own created yt-dlp configs in a folder titled the same, then don't replace & lose your own configs of course)
+
+Open yt-dlp-encode.txt inside the yt-dlp folder, keep this tab open for now
+
+Open another File Explorer tab, clear the address path bar
+
+Paste this path location in the path address bar '  C:\Users\%USERNAME%\AppData\Local\Microsoft\WinGet\Packages\  ' and Hit enter
+
+Click into the folders you see until you find the ffmpeg bin folder, open the bin folder and then copy the current path location in the File Explorer address bar
+
+In the yt-dlp-encode.txt you have open, find this line at bottom :
+ '  --ffmpeg-location "C:\Users\%USERNAME%\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-7.1.1-full_build\bin"  ' 
+
+With the ffmpeg path location address you copied, paste it inbetween the "the apostrophes of that line like this"
+
+Coding is very character sensitive so make sure you've pasted it correctly and no other changes were made to the .txt
+
+Open the yt-dlp-no-encode.txt and paste the same address in the same place just the same
+
+Save & Close the .txt documents
+
+~~~~~~~~~~~~~~
+
+Now open your Documents folder 
+
+Drag the dlpSimplified-Commands folder into your documents
+
+~~~~~~~~~~~~~~
+
+Open Windows search, find open Environment Variables
+
+Click Environment Varibles
+
+In the top retangle box (User Variables) select Path, then Edit, then New
+
+Paste this path address '   C:\Users\%USERNAME%\Documents\dlpSimplified-Commands   ' 
+
+Replace the '  %USERNAME%  ' part with the name of your computer user 
+(if you don't know the name of your user, open File Explorer > My PC > Local Disk C: > Users > You will see a folder with the name of your user)
+So say if it was Elephant, then the path address for the varible would be C:\Users\Elephant\Documents\dlpDownloader-commands
+
+Click Ok a few times to close Environment Variables
+
+~~~~~~~~~~~~~~
+
+Open command prompt and type yt-help
+
+ENJOY :)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+IMPORTANT INFO:
+
+All video related commands download re-encoded to MP4 so that downloads are compatible in editing software.
+
+If you aren't downloading to edit with but more so just to view, then type the number '  8  ' before any command
+and it will install as original & non-encoded. For Example  ~  8yt-vid 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+TROUBLESHOOTING:
+
+If you're having any sort of issue it is likely due to a path location that needs a small tweak in one (or maybe more) of these areas
+
+- The 2 .txt files in your yt-dlp folder located in Appdata\Roaming
+
+- Envoriment Varibles > Path > Edit 
+
+Or you may be having issues because your YT-DLP may not be up to date
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+HOW TO UPDATE YT-DLP (If installed by Winget as instructed)
+
+Go to this path address in file explorer 
+C:\Users\%USERNAME%\AppData\Local\Microsoft\WinGet\Packages\
+
+Find the yt-dlp folder and enter it
+
+Copy the path address of that location and add '  \yt-dlp.exe   ' at the end
+
+Wrap that full path with quotations like "C:\Thepath\yt-dlp.exe" 
+
+Open command prompt
+
+Paste the path, then type -U at the end and enter
+
+So in the end the update command should look like this:
+
+"C:\Users\%USERNAME%\AppData\Local\Microsoft\WinGet\Packages\yt-dlp.yt-dlp_Microsoft.Winget.Source_8wekyb3d8bbwe\yt-dlp.exe" -U
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Find more of my creations on Github:
+https://github.com/landnthrn?tab=repositories
+
+Support me on Buy Me a Coffee
+https://buymeacoffee.com/landn.thrn
+
+Paypal Donation:
+https://www.paypal.com/donate/?hosted_button_id=K4PLHFVBH7X8C
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
