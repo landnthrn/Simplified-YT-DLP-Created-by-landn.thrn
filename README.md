@@ -6,7 +6,7 @@ Simple step by step instructions included of course
 
 ----------------------------
 
-SIMPLIFIED COMMANDS:
+SIMPLIFIED COMMANDS:  
 All these commands are configured to encode for H.264 format for editors use
 If you want to download non-encoded just simply put the #8 before any command. For Example  ~  8yt-vid
 
