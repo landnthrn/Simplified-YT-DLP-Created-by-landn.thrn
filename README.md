@@ -1,4 +1,4 @@
-<img width="829" height="1253" alt="YT-DLP CMD UI PREVIEW" src="https://github.com/user-attachments/assets/de0141fc-079f-4175-b137-f531f34b2ef5" />
+<img width="766" height="1236" alt="YT-DLP CMD UI PREVIEW" src="https://github.com/user-attachments/assets/b528289e-4a39-4652-ab96-5a7bbe1da193" />
 
 # YT-DLP SIMPLIFIED COMMANDS:  
 
