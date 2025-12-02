@@ -2,14 +2,14 @@
 
 # YT-DLP SIMPLIFIED COMMANDS:  
 
-YT-DLP Commands made simple!
-Configured to download at the Highest Quality only.
-36 Different varitions to download by!
+YT-DLP Commands made simple!  
+Configured to download at the Highest Quality only 
+36 different variations to download by  
  
-Video related commands download encoded to MP4 by default for editor's use and compatibility with most applications
-If you wish to downloaded non-encoded then add -orig at the end of any command
+Video related commands download encoded to MP4 by default for editor's use and compatibility with most applications  
+If you wish to downloaded non-encoded then add `-orig` at the end of any command
 
-You can easily change the command names if you'd like, it's as simple as renaming the command .bat files
+You can easily change the command names if you'd like, it's as simple as renaming the command `.bat` files
 
 Simple setup instructions included of course
 
