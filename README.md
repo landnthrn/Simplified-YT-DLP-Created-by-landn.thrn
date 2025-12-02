@@ -1,60 +1,73 @@
-<img width="1223" height="1035" alt="PREVIEW" src="https://github.com/user-attachments/assets/3761c272-16fa-4f11-a4a0-908a7b094f33" />
+<img width="1073" height="1214" alt="YT-DLP CMD UI PREVIEW" src="https://github.com/user-attachments/assets/ca3aa46a-2ba5-4bcd-8d62-d873ed81e479" />
 
-A command prompt user interface for YT-DLP, with simplified commands and configurations optimized to download at highest quality audio & video always.
+# YT-DLP SIMPLIFIED COMMANDS:  
 
-Simple step by step instructions included of course
+YT-DLP Commands made simple!
+Configured to download at the Highest Quality only.
+36 Different varitions to download by!
+ 
+Video related commands download encoded to MP4 by default for editor's use and compatibility with most applications
+If you wish to downloaded non-encoded then add -orig at the end of any command
 
-----------------------------
+You can easily change the command names if you'd like, it's as simple as renaming the command .bat files
 
-SIMPLIFIED COMMANDS:  
-All these commands are configured to encode for H.264 format for editors use
-If you want to download non-encoded just simply put the #8 before any command. For Example  ~  8yt-vid
-
-You can easily change the command names if you'd like, it's as simple as renaming the command .bat files 
-
-----------------------------
-
-`yt-help`                               ~ Display this list of commands
+Simple setup instructions included of course
 
 ----------------------------
 
-STANDARD COMMANDS :
-
-`yt-vid <URL>`                        ~     Video + Audio
-
-`yt-mp3 <URL>`                        ~     Audio Only
+`dl-help`                                 —     Display this list of commands
 
 ----------------------------
 
-CLIP COMMANDS :
+### STANDARD COMMANDS :
 
-`yt-vid-clip 1:23-3:21 <URL>`         ~     Specific Section  |  Video + Audio 
+`dl-vid-aud <URL>`                        —     Video + Audio
 
-`yt-mp3-clip 1:23-3:21 <URL>`         ~     Specific Section  |  Audio Only 
+`dl-vid <URL>`                            —     Video Only
 
-----------------------------
-
-PLAYLIST COMMANDS :
-
-`yt-vid-playlist <URL>`               ~     Download a Playlist in Full  |  Video + Audio 
-
-`yt-mp3-playlist <URL>`               ~     Download a Playlist in Full  |  Audio Only
+`dl-aud <URL>`                            —     Audio Only
 
 ----------------------------
 
-SUBTITLES COMMANDS :
+### CLIP COMMANDS :
 
-`yt-vid-sub <URL>`                    ~     Video + Audio + Subtitles
+`dl-vid-aud-clip 1:23-3:21 <URL>`         —     Specific Section  |  Video + Audio 
 
-`yt-vid-clip-sub 1:23-3:21 <URL>`     ~     Specific Section  |  Video + Audio + Subtitles
+`dl-vid-clip 1:23-3:21 <URL>`             —     Specific Section  |  Video Only 
 
-`yt-vid-playlist-sub <URL>`           ~     Specific Section, Playlist in Full  |  Video + Audio + Subtitles
+`dl-aud-clip 1:23-3:21 <URL>`             —     Specific Section  |  Audio Only 
 
-`yt-mp3-sub <URL>`                    ~     Audio + Subtitles
+----------------------------
 
-`yt-mp3-clip-sub 1:23-3:21 <URL>`     ~     Specific Section  |  Audio + Subtitles
+### PLAYLIST COMMANDS :
 
-`yt-mp3-playlist-sub <URL>`           ~     Download a Playlist in Full  |  Audio + Subtitles
+`dl-vid-aud-playlist <URL>`               —     Download a Playlist in Full  |  Video + Audio 
+
+`dl-vid-playlist <URL>`                   —     Download a Playlist in Full  |  Video Only
+
+`dl-aud-playlist <URL>`                   —     Download a Playlist in Full  |  Audio Only
+
+----------------------------
+
+### SUBTITLES COMMANDS :
+
+`dl-vid-aud-sub <URL>`                    —     Video + Audio + Subtitles
+
+`dl-vid-aud-clip-sub 1:23-3:21 <URL>`     —     Specific Section  |  Video + Audio + Subtitles
+
+`dl-vid-aud-playlist-sub <URL>`           —     Specific Section, Playlist in Full  |  Video + Audio + Subtitles
+
+`dl-vid-sub <URL>`                        —     Video Only + Subtitles
+
+`dl-vid-clip-sub 1:23-3:21 <URL>`         —     Specific Section  |  Video Only + Subtitles
+
+`dl-vid-playlist-sub <URL>`               —     Playlist in Full  |  Video Only + Subtitles
+
+`dl-aud-sub <URL>`                        —     Audio + Subtitles
+
+`dl-aud-clip-sub 1:23-3:21 <URL>`         —     Specific Section  |  Audio + Subtitles
+
+`dl-aud-playlist-sub <URL>`               —     Download a Playlist in Full  |  Audio + Subtitles
 
 ---
 
