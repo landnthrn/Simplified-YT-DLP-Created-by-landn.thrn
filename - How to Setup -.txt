@@ -111,8 +111,8 @@ If you're having trouble,
    The path would look something like this `C:\Users\%USERNAME%\AppData\Local\Microsoft\WinGet\Packages\yt-dlp.yt-dlp_Microsoft.Winget.Source_GUILDIDHERE`
 —  Make sure all URL's you paste in commands are wrapped in quotations like "this"
 —  Ensure there are no folder path mismatches in the two config files, or in the command `.bat`'s 
-—  Update YT-DLP to the latest version, see instructions below
-—  Update FFMPEG to the latest version, see instructions below
+—  Update YT-DLP to the latest version, read instructions below
+—  Update FFMPEG to the latest version, read instructions below
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

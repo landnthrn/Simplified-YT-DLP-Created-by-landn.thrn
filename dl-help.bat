@@ -13,8 +13,8 @@ echo  If you're having trouble,
 echo  — Verify that when yt-dlp.exe was installed through Winget if it put it in your User Path's in Environment Varibles
 echo  — Make sure all URL's you paste in commands are wrapped in quotations like "this"
 echo  — Ensure there are no folder path mismatches in the two config files, or in the command .bat's 
-echo  — Update YT-DLP to the latest version, see instructions below
-echo  — Update FFMPEG to the latest version, see instructions below
+echo  — Update YT-DLP to the latest version, read the - How to Setup -.txt
+echo  — Update FFMPEG to the latest version, read the - How to Setup -.txt
 echo.
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo.
