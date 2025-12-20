@@ -1,5 +1,7 @@
 <img width="766" height="1236" alt="YT-DLP CMD UI PREVIEW" src="https://github.com/user-attachments/assets/b528289e-4a39-4652-ab96-5a7bbe1da193" />
 
+## [YT-DLP GitHub](https://github.com/yt-dlp/yt-dlp)
+
 # YT-DLP SIMPLIFIED COMMANDS:  
 
 YT-DLP Commands made simple!  
@@ -71,6 +73,7 @@ Simple setup instructions included of course
 `dl-aud-playlist-sub <URL>`               —     Download a Playlist in Full  |  Audio + Subtitles
 
 ---
+
 
 ## Found this useful?<img src="https://media.tenor.com/23NitOvEEkMAAAAj/optical-illusion-rotating-head.gif" width="30"><br>
 
